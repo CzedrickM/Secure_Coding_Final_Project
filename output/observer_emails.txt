@@ -1,0 +1,30 @@
+---
+To: czedrick@pixell-river.com
+Subject: ALERT: Unusual Activity: 2025-03-16 18:40:17.647920
+Message: Notification for 2815: Czedrick Marcelino: Large transaction $10,000.00: on account 2001
+---
+---
+To: czedrick@pixell-river.com
+Subject: ALERT: Unusual Activity: 2025-03-16 18:40:17.648494
+Message: Notification for 2815: Czedrick Marcelino: Low balance warning $25.00: on account 2001
+---
+---
+To: czedrick@pixell-river.com
+Subject: ALERT: Unusual Activity: 2025-03-16 18:40:17.648885
+Message: Notification for 2815: Czedrick Marcelino: Large transaction $-10,075.00: on account 2001
+---
+---
+To: czedrick@pixell-river.com
+Subject: ALERT: Unusual Activity: 2025-03-16 18:40:17.649264
+Message: Notification for 2815: Czedrick Marcelino: Large transaction $10,000.00: on account 1001
+---
+---
+To: czedrick@pixell-river.com
+Subject: ALERT: Unusual Activity: 2025-03-16 18:40:17.649619
+Message: Notification for 2815: Czedrick Marcelino: Low balance warning $25.00: on account 1001
+---
+---
+To: czedrick@pixell-river.com
+Subject: ALERT: Unusual Activity: 2025-03-16 18:40:17.649964
+Message: Notification for 2815: Czedrick Marcelino: Large transaction $-10,075.00: on account 1001
+---

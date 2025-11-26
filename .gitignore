@@ -1,0 +1,22 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Visual Studio Code
+.vscode/
+
+# Directories
+  - build
+  - dist
+  - logs
+  - source
+  - output/
+
+# Installer
+  - *.whl
+  - *.tar.gz
