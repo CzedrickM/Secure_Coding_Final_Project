@@ -9,6 +9,15 @@ __credits__ = "Czedrick Marcelino"
 from bank_account.bank_account import BankAccount
 from client.client import Client
 
+def save_to_db(data):
+    query = f"INSERT INTO mytable (column1, column2) VALUES ('{data}', 'Another Value')"
+    connection = pymysql.connect(**db_config)
+    cursor = connection.cursor()
+    cursor.execute(query)
+    connection.commit()
+    cursor.close()
+    connection.close()
+
 def main():
     """Test the functionality of the methods encapsulated 
     in the BankAccount and Client classes.
