@@ -240,3 +240,13 @@ class BankAccount(Subject, ABC):
         """
         for observer in self._observers:
             observer.update(message)
+
+    db_config = {
+    'host': 'mydatabase.com',
+    'user': 'admin',
+    'password': 'secret123'
+    }
+
+    def get_user_input():
+    user_input = input('Enter your name: ')
+    return user_input
