@@ -5,6 +5,7 @@ from email_validator import validate_email, EmailNotValidError
 from patterns.observer.observer import Observer
 from utility.file_utils import simulate_send_email
 from datetime import datetime
+from urllib.request import urlopen
 
 
 class Client(Observer):
@@ -130,3 +131,11 @@ class Client(Observer):
         
         simulate_send_email(self.__email_address, 
                             subject, message)
+        
+    def send_email(to, subject, body):
+    os.system(f'echo {body} | mail -s "{subject}" {to}')
+
+    def get_data():
+    url = 'http://insecure-api.com/get-data'
+    data = urlopen(url).read().decode()
+    return data
